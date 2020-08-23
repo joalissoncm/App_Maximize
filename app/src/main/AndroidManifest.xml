@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appmaximize">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appmaxxxx"
+        android:label="Maximize"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity_bpf"
+            android:parentActivityName=".ActivityService" />
+        <activity
+            android:name=".activity_analise_food_fisico"
+            android:parentActivityName=".ActivityService" />
+        <activity
+            android:name=".activity_analise_food_micro"
+            android:parentActivityName=".ActivityService" />
+        <activity
+            android:name=".activity_analise_agua_fisico"
+            android:parentActivityName=".ActivityService" />
+        <activity android:name=".ActivityService" />
+        <activity
+            android:name=".activity_biosseguranca"
+            android:parentActivityName=".ActivityService" />
+        <activity
+            android:name=".activity_sobre_empresa"
+            android:parentActivityName=".ActivityService" />
+        <activity android:name=".activity_contato">
+
+        </activity>
+        <activity
+            android:name=".activity_analise_agua_micro"
+            android:parentActivityName=".ActivityService" />
+    </application>
+
+</manifest>

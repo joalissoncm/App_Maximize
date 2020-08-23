@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Maximize</string>
+    <string name="subtitle">Maximize - Empresa Junior de Biotecnologia</string>
+    <string name="go_continue">VER SERVIÇOS</string>
+    <string name="analiseagua">Análise Microbiológica de Água</string>
+    <string name="textoAgua">A água potável é própria para o consumo humano, para isso, a mesma deve ser isenta de quaisquer substância tóxicas e de microrganismos patogênicos, que interfiram na qualidade
+da água e apresentem risco à saúde humana e animal.\n
+        \nA Maximize garante em seus serviços atendimento personalizado e qualidade  no serviço.
+        de acordo com a Portaria no 2.914/2011 do Ministério da Saúde do Brasil. Aqui é importante ressaltar
+        \nque o controle da qualidade da água deve ser realizado com periodicidade."</string>
+    <string name="sobre_a_empresa">Sobre a Empresa</string>
+    <string name="textoSobre">A Maximize – Soluções em Biotecnologia é a Empresa Júnior do Bacharelado em Biotecnologia
+do Centro de Biotecnologia (CBiotec) da Universidade Federal da Paraíba (UFPB).
+A ideia surgiu em 2014, fruto da aspiração de um grupo de estudantes unidos pelo espírito
+empreendedor, o qual gerava em todos a vontade de transpor a teoria vista em sala de aula.
+Esse grupo almejava aplicar os conhecimentos adquiridos e vivenciar experiências que
+apenas a atuação prática no mercado de trabalho pode proporcionar.\n
+        \nAssim, em 2015, foi oficialmente fundada a Maximize. No ano seguinte, a empresa foi legitimada
+ao conquistar o Selo EJ, concedido pela Brasil Júnior (Confederação Brasileira de Empresas
+Juniores). Atualmente, trabalha com os serviços de análise de água e alimentos e tem investido
+na capacitação de seus membros para, em breve, fornecer serviços de consultoria.\n
+        \nAlém disso, a Maximize preocupa-se com o fortalecimento da Biotecnologia e o incentivo
+ao empreendedorismo na área. Com esse intuito, já promoveu duas edições do
+Seminário Sobre Biotecnologia e suas Aplicações (SSBA), visando a divulgação da profissão
+e a aproximação dos estudantes com o mercado de trabalho.
+ </string>
+    <string name="gest_o_de_risco_biol_gico_aplicado_ao_covid">Gestão de Risco Biológico\nAplicada ao Covid-19</string>
+
+    <string name="covid">Os esforços para conter a proliferação do coronavírus
+(Covid-19) no País devem, neste momento, fazer parte da agenda
+prioritária de todos os setores da economia.\n
+        \nMuitas são as medidas que podem ser adotadas, provenientes da
+Organização Mundial da Saúde, do Ministério da Saúde e das secretarias de
+saúde dos estados e municípios.</string>
+
+    <string name="gestao_riscos">Biossegurança é o conjunto de ações voltadas para a prevenção,
+proteção e minimização de riscos físicos, químicos e ou biológicos inerentes às
+atividades de pesquisa, produção, ensino, desenvolvimento tecnológico e operacional,
+e amplia-se para a proteção ambiental e a qualidade.</string>
+    <string name="servicos_texto">Os nossos serviços são sempre oferecidos da melhor forma, com o melhor preço para você.</string>
+    <string name="texto_biosseguranca">Biossegurança é o conjunto de ações voltadas para a prevenção,
+proteção e minimização de riscos físicos, químicos e ou biológicos inerentes às
+atividades de pesquisa, produção, ensino, desenvolvimento tecnológico e operacional,
+e amplia-se para a proteção ambiental e a qualidade.\n\nOferecemos para o seu estabelecimento a consultoria para deixar ele de acordo com
+    as normas da Anvisa e oferecemos o Manual de Boas Práticas e o Procedimento Operacional Padrão específicos para o seu
+    estabelecimento.\n
+    \nVendemos esse serviço para: Bares, Restaurantes e Padarias.</string>
+    <string name="texto_food_micro">A análise microbiológica de alimentos é um procedimento que faz parte do controle sanitário, bem como de qualidade dos produtos. Realizado por meio de sistema de alto desempenho em tecnologia, a análise microbiológica de alimentos é executada por profissionais técnicos qualificados na área.\n\nAlém do uso de equipamentos que se destaca pela inovação, a análise microbiológica de alimentos nada mais é que a identificação detalhada de estruturas que não são vistas a olho nu. Uma das principais prioridades e funções da avaliação é promover a confiabilidade no usuário a respeito do perfeito estado dos alimentos.</string>
+    <string name="texto_food_fisico">A análise físico química de alimentos é um procedimento essencial para garantir à indústria alimentícia, bem como aos departamentos comerciais, a segurança completa e satisfatória da composição dos alimentos.\n\nAvaliada por meio de laboratório de estrutura diferenciada, a análise físico química de alimentos é um sistema obrigatório, determinado pela Vigilância Sanitária, Ministério da Agricultura, Instituto Mineiro de Agropecuária, e outros. Além de verificar o controle de qualidade nos produtos, a análise físico química de alimentos identifica a presença de elementos que podem ser altamente prejudiciais à saúde humana.</string>
+    <string name="texto_bpf">Nesse serviço oferecemos um Manual de Boas Práticas e um Procedimento peracional Padrão (POP) exclusivos para o seu negócio.\n
+        \nO Manual de Boas Práticas é o documento que descreve e indica a forma de um trabalho
+ser executado corretamente em um estabelecimento. Por definição, as Boas Práticas de
+Fabricação são os métodos de higiene que devem ser obedecidos pelos manipuladores
+desde a escolha e compra dos produtos a serem utilizados no preparo do alimento até a
+venda para o consumidor.  Tendo como objetivo evitar a ocorrência de doenças provocadas
+pelo consumo de alimentos contaminados.\n
+
+\nPara melhor estruturação do serviço de Boas práticas de Fabricação de Alimentos,
+o manual vem anexado com os POPs, que são ferramentas de eficiência aplicada na
+área de qualidade. Possuindo grande importância dentro de um empresa,
+tem o objetivo de garantir uma padronização dos processos, e ter como consequência
+os resultados esperados da tarefa a ser executada. Dessa forma, pode ser definido
+como um roteiro padronizado para realizar atividades e procedimentos.\n
+
+\nO POP destaca as etapas da tarefa, os responsáveis por fazê-la, os materiais necessários
+e a freqüência em que deve ser feita. Como os POP são documentos aprovados pelo
+estabelecimento, por meio do responsável, é dever de cada manipulador segui-los.
+</string>
+    <string name="texto_agua_micro">A análise microbiológica de água é feita através de coletas da amostra e ensaios microbiológicos para conservação e controle da qualidade do mesmo, atendendo às necessidades e especificações de cada contratante.\n
+        \nAlém do mais, o laboratório que realiza este serviço deve fazer estas atividades dentro das normas e das diretrizes especificadas pelos órgãos que fazem as regulamentações.\n
+    \nEm adição, a análise microbiológica de água é de extrema importância para se assegurar uma água de qualidade e própria para ser distribuída para os consumidores, evitando, assim, inúmeras doenças que podem estar relacionadas à água não potável.\n
+        \nSendo assim, a análise microbiológica de água realiza exames minuciosos, pelos quais os profissionais poderão identificar quaisquer contaminação na água. Assim, a análise microbiológica de água é capaz de identificar microrganismos que não podem ser identificados a olho nu, fazendo assim uma completa verificação do aspecto geral da água.</string>
+    <string name="texto_agua_fisico">A análise físico química da água é indispensável para todos os processos de fabricação de produtos, sejam eles direta ou indiretamente ligados ao consumo. Por meio dessa análise, é possível saber se elementos não permitidos estão presentes na água.\n
+    \nA análise físico química da água é potencialmente importante para águas potáveis, purificadas e também residuais, neste último caso para evitar o descarte prejudicial à natureza. O relatório emitido após o processo de análise mostra se existe presença de contaminantes físico químicos e microbiológicos que possam afetar de maneira negativa os processos industriais, mesmo quando esses não envolvem a utilização direta da água no produto final.\n
+        \nAssim, a análise físico química da água é obrigatória para muitos setores. Ela deve seguir todos os procedimentos apontados pela ANVISA, para que a água possa ser utilizada com a segurança necessária e a indústria trabalhe em conformidade com a legislação sanitária.</string>
+    <string name="texto_agua_microbiologica">A análise microbiológica de água é feita através de coletas da amostra e ensaios microbiológicos para conservação e controle da qualidade do mesmo, atendendo às necessidades e especificações de cada contratante.\n \nAlém do mais, o laboratório que realiza este serviço deve fazer estas atividades dentro das normas e das diretrizes especificadas pelos órgãos que fazem as regulamentações.\n \nEm adição, a análise microbiológica de água é de extrema importância para se assegurar uma água de qualidade e própria para ser distribuída para os consumidores, evitando, assim, inúmeras doenças que podem estar relacionadas à água não potável.\n \nSendo assim, a análise microbiológica de água realiza exames minuciosos, pelos quais os profissionais poderão identificar quaisquer contaminação na água. Assim, a análise microbiológica de água é capaz de identificar microrganismos que não podem ser identificados a olho nu, fazendo assim uma completa verificação do aspecto geral da água.</string>
+    <string name="texto_agua_fisico_quimica"><![CDATA[A análise físico química da água é indispensável para todos os processos de fabricação de produtos, sejam eles direta ou indiretamente ligados ao consumo. Por meio dessa análise, é possível saber se elementos não permitidos estão presentes na água.\n \nA análise físico química da água é potencialmente importante para águas potáveis, purificadas e também residuais, neste último caso para evitar o descarte prejudicial à natureza. O relatório emitido após o processo de análise mostra se existe presença de contaminantes físico químicos e microbiológicos que possam afetar de maneira negativa os processos industriais, mesmo quando esses não envolvem a utilização direta da água no produto final.\n \nAssim, a análise físico química da água é obrigatória para muitos setores. Ela deve seguir todos os procedimentos apontados pela ANVISA, para que a água possa ser utilizada com a segurança necessária e a indústria trabalhe em conformidade com a legislação sanitária.]]></string>
+</resources>
