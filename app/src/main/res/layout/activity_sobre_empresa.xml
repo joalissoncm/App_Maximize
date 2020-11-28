@@ -35,7 +35,7 @@
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
-                android:layout_height="118dp"
+                android:layout_height="142dp"
                 android:paddingLeft="10sp"
                 android:paddingRight="10sp"
                 app:srcCompat="@drawable/app_logo" />
@@ -53,9 +53,9 @@
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
                 android:layout_marginStart="30dp"
                 android:layout_marginLeft="30dp"
+                android:layout_marginTop="12dp"
                 android:layout_marginEnd="30dp"
                 android:paddingBottom="20sp"
                 android:text="@string/textoSobre"

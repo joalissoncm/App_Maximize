@@ -24,49 +24,46 @@
 
             <ImageView
                 android:id="@+id/imageView4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="369dp"
+                android:layout_height="232dp"
+                android:background="@drawable/rounded_background"
                 app:layout_constraintBottom_toTopOf="@+id/appCompatTextView"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/bioss1" />
-
+                app:srcCompat="@drawable/sem_t_tulo_10" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/appCompatTextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="7dp"
+                android:layout_width="245dp"
+                android:layout_height="52dp"
                 android:gravity="center"
                 android:text="Biossegurança"
                 android:textColor="@android:color/black"
                 android:textSize="25sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toTopOf="@+id/button_contato"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
             <Button
-                android:id="@+id/button_contato"
+                android:id="@+id/button_contato_bio"
                 android:layout_width="250dp"
                 android:layout_height="60dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="3dp"
                 android:background="@drawable/custom_button"
                 android:text="Entre em contato"
                 android:textAllCaps="false"
                 android:textColor="#FFFFFF"
                 android:textSize="20sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/appCompatTextView"
+                app:layout_constraintStart_toStartOf="@+id/appCompatTextView"
                 app:layout_constraintTop_toBottomOf="@+id/appCompatTextView" />
 
             <TextView
                 android:id="@+id/textView17"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:padding="20sp"
                 android:text="@string/texto_biosseguranca"
                 android:textColor="@android:color/black"
@@ -74,9 +71,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button_contato" />
+                app:layout_constraintTop_toBottomOf="@+id/button_contato_bio" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
+
 </LinearLayout>
 

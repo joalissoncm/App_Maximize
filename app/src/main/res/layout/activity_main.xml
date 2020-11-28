@@ -32,10 +32,10 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="20dp"
             android:layout_marginRight="20dp"
+            android:background="#003f6f"
             android:gravity="center"
             android:padding="30dp"
             android:text="Bem-Vindo(a)"
-            android:background="#003f6f"
             android:textColor="#f8b938"
             android:textSize="30sp"
             android:textStyle="bold"
@@ -46,15 +46,16 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="377dp"
+            android:layout_height="0dp"
             android:padding="30dp"
             android:text="Conheça os nossos serviços e a nossa empresa."
+            android:gravity="center"
             android:textColor="@android:color/black"
             android:textSize="25sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="@+id/textView"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <TextView
@@ -66,15 +67,15 @@
             android:textColor="#003f6f"
             android:textSize="25sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout2"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <LinearLayout
             android:id="@+id/linearLayout2"
-            android:elevation="10sp"
             android:layout_width="250dp"
             android:layout_height="175dp"
+            android:elevation="10sp"
             android:orientation="horizontal"
             android:padding="10dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -124,13 +125,12 @@
             android:id="@+id/linearLayout"
             android:layout_width="250dp"
             android:layout_height="175dp"
-            android:layout_marginTop="44dp"
             android:orientation="horizontal"
             android:padding="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+            app:layout_constraintTop_toBottomOf="@+id/textView3">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="0dp"
@@ -175,15 +175,14 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="16dp"
             android:gravity="center"
             android:text="Sobre a Maximize"
             android:textColor="#003f6f"
             android:textSize="25sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout"
             app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

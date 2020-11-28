@@ -14,11 +14,10 @@ class activity_biosseguranca : AppCompatActivity() {
         setSupportActionBar(signup_toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        val button_contato = findViewById<Button>(R.id.button_contato)
+        val button_contato = findViewById<Button>(R.id.button_contato_bio)
 
         button_contato.setOnClickListener {
-            val intent = Intent(this, activity_contato::class.java)
-
+            val intent = Intent(this, ActivityContato::class.java)
             startActivity(intent)
         }
     }

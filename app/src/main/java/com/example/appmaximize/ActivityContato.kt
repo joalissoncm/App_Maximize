@@ -8,7 +8,7 @@ import android.view.View
 import android.webkit.WebView
 import android.webkit.WebViewClient
 
-class activity_contato : AppCompatActivity() {
+class ActivityContato : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_contato)
@@ -31,6 +31,5 @@ class activity_contato : AppCompatActivity() {
             }
             false
         })
-
     }
 }

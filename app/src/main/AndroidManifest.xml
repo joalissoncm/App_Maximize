@@ -39,7 +39,7 @@
         <activity
             android:name=".activity_sobre_empresa"
             android:parentActivityName=".ActivityService" />
-        <activity android:name=".activity_contato">
+        <activity android:name=".ActivityContato">
 
         </activity>
         <activity

@@ -19,12 +19,10 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intent)}
 
-
         button_service.setOnClickListener{
             val intent = Intent(this, ActivityService::class.java)
 
             startActivity(intent)
         }
-
     }
 }

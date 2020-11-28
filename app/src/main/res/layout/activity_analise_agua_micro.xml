@@ -23,12 +23,14 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="442dp"
-                android:layout_height="266dp"
-                android:background="@android:color/white"
-                app:layout_constraintBottom_toTopOf="@+id/appCompatTextView3"
+                android:layout_width="344dp"
+                android:layout_height="272dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="32dp"
+                android:background="@drawable/rounded_background"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.521"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/agua_micro" />
@@ -43,11 +45,22 @@
                 android:textColor="@android:color/black"
                 android:textSize="30sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toTopOf="@+id/button_contato"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                app:layout_constraintStart_toStartOf="@+id/imageView2"
                 app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <Button
+                android:id="@+id/button_contato_bio"
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:background="@drawable/custom_button"
+                android:text="Entre em contato"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/appCompatTextView3"
+                app:layout_constraintStart_toStartOf="@+id/appCompatTextView3"
+                app:layout_constraintTop_toBottomOf="@+id/appCompatTextView3" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/appCompatTextView4"
@@ -57,25 +70,10 @@
                 android:text="@string/texto_agua_microbiologica"
                 android:textColor="@android:color/black"
                 android:textSize="22sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button_contato" />
-
-            <Button
-                android:id="@+id/button_contato"
-                android:layout_width="250dp"
-                android:layout_height="60dp"
-                android:textAllCaps="false"
-                android:textSize="20sp"
-                android:textColor="#FFFFFF"
-                android:text="Entre em contato"
-                android:background="@drawable/custom_button"
-                app:layout_constraintBottom_toTopOf="@+id/appCompatTextView4"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/appCompatTextView3" />
+                app:layout_constraintEnd_toEndOf="@+id/button_contato_bio"
+                app:layout_constraintStart_toStartOf="@+id/button_contato_bio"
+                app:layout_constraintTop_toBottomOf="@+id/button_contato_bio" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
+
 </LinearLayout>

@@ -7,7 +7,6 @@ import android.widget.Button
 import kotlinx.android.synthetic.main.activity_analise_agua_fisico.*
 
 class activity_analise_agua_micro : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_analise_agua_micro)
@@ -15,10 +14,10 @@ class activity_analise_agua_micro : AppCompatActivity() {
         setSupportActionBar(signup_toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        val button_contato = findViewById<Button>(R.id.button_contato)
+        val button_contato = findViewById<Button>(R.id.button_contato_bio)
 
         button_contato.setOnClickListener {
-            val intent = Intent(this, activity_contato::class.java)
+            val intent = Intent(this, ActivityContato::class.java)
 
             startActivity(intent)
         }

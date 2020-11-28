@@ -54,7 +54,5 @@ class ActivityService : AppCompatActivity() {
 
             startActivity(intent)}
 
-
-
     }
 }
