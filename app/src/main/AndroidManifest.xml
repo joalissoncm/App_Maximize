@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity_bpf"
+            android:name=".activity_bpf1"
             android:parentActivityName=".ActivityService" />
         <activity
             android:name=".activity_analise_food_fisico"

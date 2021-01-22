@@ -3,7 +3,6 @@ package com.example.appmaximize
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageButton
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -50,7 +49,7 @@ class ActivityService : AppCompatActivity() {
         val btn_bpf = findViewById<ImageButton>(R.id.btn_bpf)
 
         btn_bpf.setOnClickListener{
-            val intent = Intent(this, activity_bpf::class.java)
+            val intent = Intent(this, activity_bpf1::class.java)
 
             startActivity(intent)}
 

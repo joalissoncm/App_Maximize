@@ -46,11 +46,11 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="377dp"
-            android:layout_height="0dp"
-            android:padding="30dp"
-            android:text="Conheça os nossos serviços e a nossa empresa."
+            android:layout_width="349dp"
+            android:layout_height="112dp"
             android:gravity="center"
+            android:padding="10dp"
+            android:text="Conheça os nossos serviços e a nossa empresa."
             android:textColor="@android:color/black"
             android:textSize="25sp"
             android:textStyle="bold"
